@@ -1,1 +1,8 @@
+#ocaml
+*.byte
+*.cmi
+*.cmo
+_build
+
+# general
 .DS_Store
