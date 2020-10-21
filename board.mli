@@ -13,7 +13,7 @@ val compare : piece -> piece -> int
 val create_empty_board : t
 
 (* Adds a new piece to a given position on the board *)
-val add_to_board : piece -> location -> t -> t
+val add_to_board : piece -> location -> t -> unit
 
 (* Gets the piece located at a particular position on the board *)
 val get_piece : location -> t -> piece
