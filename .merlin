@@ -1,2 +1,4 @@
 PKG ounit2
+PKG graphics
+PKG camlimages camlimages.all_formats
 B _build
