@@ -6,8 +6,7 @@ type piece = {
   piece_name : name;
   rank : int;
   mutable seen : bool;
-  user_team : bool;
-  color : team
+  user_team : bool
 }
 (*[| [|piece; piece; piece..|]; [|piece; piece; piece..|]..|]
   where t.(x).(y) indicates t.(row)(column) *)
